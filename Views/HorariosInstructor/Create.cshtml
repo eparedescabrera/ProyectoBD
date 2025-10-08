@@ -1,0 +1,47 @@
+@model WebApplication1.Models.Horario_Instructor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Horario_Instructor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID_Instructor" class="control-label"></label>
+                <select asp-for="ID_Instructor" class ="form-control" asp-items="ViewBag.ID_Instructor"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="dia_semana" class="control-label"></label>
+                <input asp-for="dia_semana" class="form-control" />
+                <span asp-validation-for="dia_semana" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="hora_inicio" class="control-label"></label>
+                <input asp-for="hora_inicio" class="form-control" />
+                <span asp-validation-for="hora_inicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="hora_fin" class="control-label"></label>
+                <input asp-for="hora_fin" class="form-control" />
+                <span asp-validation-for="hora_fin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

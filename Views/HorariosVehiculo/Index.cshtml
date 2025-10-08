@@ -1,0 +1,53 @@
+@model IEnumerable<WebApplication1.Models.Horario_Vehiculo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.dia_semana)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hora_inicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hora_fin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_VehiculoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.dia_semana)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hora_inicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hora_fin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_VehiculoNavigation.ID_Vehiculo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID_HorarioVehiculo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_HorarioVehiculo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_HorarioVehiculo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

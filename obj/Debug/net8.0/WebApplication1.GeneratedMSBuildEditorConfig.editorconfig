@@ -1,0 +1,335 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication1
+build_property.RootNamespace = WebApplication1
+build_property.ProjectDir = C:\Users\a\OneDrive - Universidad Nacional de Costa Rica\Documentos\ADMINBD\proyectoBD\LiberiaDriveMVC\WebApplication1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\a\OneDrive - Universidad Nacional de Costa Rica\Documentos\ADMINBD\proyectoBD\LiberiaDriveMVC\WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Citas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Citas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Citas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Citas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Citas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/ClientePaquetes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBhcXVldGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/ClientePaquetes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBhcXVldGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/ClientePaquetes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBhcXVldGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/ClientePaquetes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBhcXVldGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/ClientePaquetes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBhcXVldGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesInstructor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc0luc3RydWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesInstructor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc0luc3RydWN0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesInstructor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc0luc3RydWN0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesInstructor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc0luc3RydWN0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesInstructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc0luc3RydWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesVehiculo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc1ZlaGljdWxvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesVehiculo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc1ZlaGljdWxvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesVehiculo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc1ZlaGljdWxvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesVehiculo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc1ZlaGljdWxvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/DisponibilidadesVehiculo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9uaWJpbGlkYWRlc1ZlaGljdWxvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosInstructor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NJbnN0cnVjdG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosInstructor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NJbnN0cnVjdG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosInstructor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NJbnN0cnVjdG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosInstructor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NJbnN0cnVjdG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosInstructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NJbnN0cnVjdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosVehiculo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NWZWhpY3Vsb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosVehiculo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NWZWhpY3Vsb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosVehiculo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NWZWhpY3Vsb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosVehiculo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NWZWhpY3Vsb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/HorariosVehiculo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NWZWhpY3Vsb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Instructores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Instructores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Instructores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Instructores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Instructores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Lecciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Lecciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Lecciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Lecciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Lecciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/MantenimientosVehiculo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b3NWZWhpY3Vsb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/MantenimientosVehiculo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b3NWZWhpY3Vsb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/MantenimientosVehiculo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b3NWZWhpY3Vsb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/MantenimientosVehiculo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b3NWZWhpY3Vsb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/MantenimientosVehiculo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b3NWZWhpY3Vsb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Pagos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Pagos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Pagos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Pagos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Pagos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Paquetes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Paquetes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Paquetes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Paquetes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Paquetes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Simulacros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltdWxhY3Jvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Simulacros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltdWxhY3Jvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Simulacros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltdWxhY3Jvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Simulacros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltdWxhY3Jvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Simulacros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltdWxhY3Jvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Vehiculos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Vehiculos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Vehiculos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Vehiculos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Vehiculos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/OneDrive - Universidad Nacional de Costa Rica/Documentos/ADMINBD/proyectoBD/LiberiaDriveMVC/WebApplication1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx

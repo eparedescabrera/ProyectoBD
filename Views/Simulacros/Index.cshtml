@@ -1,0 +1,65 @@
+@model IEnumerable<WebApplication1.Models.Simulacro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.resultado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_ClienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_InstructorNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_VehiculoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.resultado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_ClienteNavigation.ID_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_InstructorNavigation.ID_Instructor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_VehiculoNavigation.ID_Vehiculo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID_Simulacro">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_Simulacro">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_Simulacro">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
