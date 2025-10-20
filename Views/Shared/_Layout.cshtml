@@ -43,7 +43,28 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    @{
+        var sweetAlertMessage = TempData["SweetAlert.Message"] as string;
+        if (!string.IsNullOrWhiteSpace(sweetAlertMessage))
+        {
+            var sweetAlertTitle = TempData["SweetAlert.Title"] as string ?? string.Empty;
+            var sweetAlertIcon = TempData["SweetAlert.Icon"] as string ?? "success";
+            var sweetAlertTitleJson = System.Text.Json.JsonSerializer.Serialize(sweetAlertTitle);
+            var sweetAlertMessageJson = System.Text.Json.JsonSerializer.Serialize(sweetAlertMessage);
+            var sweetAlertIconJson = System.Text.Json.JsonSerializer.Serialize(sweetAlertIcon);
+            @:<script>
+            @:    document.addEventListener('DOMContentLoaded', function () {
+            @:        Swal.fire({
+            @:            icon: @Html.Raw(sweetAlertIconJson),
+            @:            title: @Html.Raw(sweetAlertTitleJson),
+            @:            text: @Html.Raw(sweetAlertMessageJson)
+            @:        });
+            @:    });
+            @:</script>
+        }
+    }
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

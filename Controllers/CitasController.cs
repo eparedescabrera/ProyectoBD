@@ -21,8 +21,7 @@ namespace WebApplication1.Controllers
         // GET: Citas
         public async Task<IActionResult> Index()
         {
-            var liberiaDriveContext = _context.Cita.Include(c => c.ID_ClienteNavigation);
-            return View(await liberiaDriveContext.ToListAsync());
+            return View(await GetCitasWithCliente().ToListAsync());
         }
 
         // GET: Citas/Details/5
@@ -33,8 +32,7 @@ namespace WebApplication1.Controllers
                 return NotFound();
             }
 
-            var cita = await _context.Cita
-                .Include(c => c.ID_ClienteNavigation)
+            var cita = await GetCitasWithCliente()
                 .FirstOrDefaultAsync(m => m.ID_Cita == id);
             if (cita == null)
             {
@@ -47,7 +45,7 @@ namespace WebApplication1.Controllers
         // GET: Citas/Create
         public IActionResult Create()
         {
-            ViewData["ID_Cliente"] = new SelectList(_context.Cliente, "ID_Cliente", "ID_Cliente");
+            PopulateClientesDropDownList();
             return View();
         }
 
@@ -62,9 +60,10 @@ namespace WebApplication1.Controllers
             {
                 _context.Add(cita);
                 await _context.SaveChangesAsync();
+                SetSweetAlert("Cita creada", "La cita se registró correctamente.");
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ID_Cliente"] = new SelectList(_context.Cliente, "ID_Cliente", "ID_Cliente", cita.ID_Cliente);
+            PopulateClientesDropDownList(cita.ID_Cliente);
             return View(cita);
         }
 
@@ -81,7 +80,7 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-            ViewData["ID_Cliente"] = new SelectList(_context.Cliente, "ID_Cliente", "ID_Cliente", cita.ID_Cliente);
+            PopulateClientesDropDownList(cita.ID_Cliente);
             return View(cita);
         }
 
@@ -103,6 +102,7 @@ namespace WebApplication1.Controllers
                 {
                     _context.Update(cita);
                     await _context.SaveChangesAsync();
+                    SetSweetAlert("Cita actualizada", "Los cambios se guardaron correctamente.");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -117,7 +117,7 @@ namespace WebApplication1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ID_Cliente"] = new SelectList(_context.Cliente, "ID_Cliente", "ID_Cliente", cita.ID_Cliente);
+            PopulateClientesDropDownList(cita.ID_Cliente);
             return View(cita);
         }
 
@@ -129,8 +129,7 @@ namespace WebApplication1.Controllers
                 return NotFound();
             }
 
-            var cita = await _context.Cita
-                .Include(c => c.ID_ClienteNavigation)
+            var cita = await GetCitasWithCliente()
                 .FirstOrDefaultAsync(m => m.ID_Cita == id);
             if (cita == null)
             {
@@ -152,12 +151,45 @@ namespace WebApplication1.Controllers
             }
 
             await _context.SaveChangesAsync();
+            SetSweetAlert("Cita eliminada", "La cita se eliminó correctamente.");
             return RedirectToAction(nameof(Index));
         }
 
         private bool CitaExists(int id)
         {
-            return _context.Cita.Any(e => e.ID_Cita == id);
+            return _context.Cita.AsNoTracking().Any(e => e.ID_Cita == id);
+        }
+
+        private IQueryable<Cita> GetCitasWithCliente()
+        {
+            return _context.Cita
+                .AsNoTracking()
+                .Include(c => c.ID_ClienteNavigation);
+        }
+
+        private void PopulateClientesDropDownList(int? selectedCliente = null)
+        {
+            var clientes = _context.Cliente
+                .AsNoTracking()
+                .OrderBy(c => c.ID_Cliente);
+
+            ViewData["ID_Cliente"] = new SelectList(clientes, "ID_Cliente", "ID_Cliente", selectedCliente);
+        }
+
+        private const string SweetAlertTitleKey = "SweetAlert.Title";
+        private const string SweetAlertMessageKey = "SweetAlert.Message";
+        private const string SweetAlertIconKey = "SweetAlert.Icon";
+
+        private void SetSweetAlert(string title, string message, string icon = "success")
+        {
+            if (TempData.ContainsKey(SweetAlertMessageKey))
+            {
+                return;
+            }
+
+            TempData[SweetAlertTitleKey] = title;
+            TempData[SweetAlertMessageKey] = message;
+            TempData[SweetAlertIconKey] = icon;
         }
     }
 }
